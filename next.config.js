@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repo = 'stkv2'; // your repo name
+const repo = 'stkv2'; // repo name
 const isCI = process.env.GITHUB_ACTIONS === 'true';
 
 module.exports = {
